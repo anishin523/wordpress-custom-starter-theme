@@ -1,6 +1,6 @@
-Wordpress Starter Theme With ACF Repeater and SASS
+<h3>Wordpress Starter Theme With ACF Repeater and SASS</h3>
 
-Installation
+<h5>Installation</h5>
 1. Copy files into a theme folder in wp-content/themes
 2. Edit style.css file and add in your details.
 3. Activate theme.
