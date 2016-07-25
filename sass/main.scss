@@ -1,0 +1,130 @@
+@import "_variables-mixins";
+@import "../css/fonts.css";
+
+#wrapper {
+	position: relative;
+	@media (max-width: 997px) {
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}	
+	#site-header {
+
+	}
+	#site-main {
+		margin-top: 75px;
+		> #container {
+		    padding: 8em;
+		}
+	}
+	#site-footer {
+		background-color: #4a4a4a;
+		padding: 80px 0 35px 0;
+		color: #fff;
+		text-align: center;
+		@include full-inline-block;
+		position: relative;
+		z-index: 2;
+	}
+
+}
+
+/* =Header
+-------------------------------------------------------------- */
+.header_top {
+	position: fixed;
+	text-align: center;
+	padding: 27px 0;
+	width: 100%;
+	top: 0;
+	z-index: 38;
+	background-color: #fff;
+
+	-webkit-box-shadow: 0 1px 12px 0px gray;
+	-moz-box-shadow: 0 1px 12px 0px gray;
+	-ms-box-shadow: 0 1px 12px 0px gray;
+	-o-box-shadow: 0 1px 12px 0px gray;
+	box-shadow: 0 1px 12px 0px gray;
+
+	.site_logo {
+		display: inline-block;
+		img.visible-xs {
+			width: 39px;
+		}
+	}	
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+
+#navbar {
+	padding: 50px 0;
+	text-align: center;
+	.nav {
+		display: inline-block;
+		.menu-item {
+			position: relative;
+			a {
+				display: block;
+				color: #fff;
+				font-size: 3em;
+				padding: 10px 30px;
+				text-transform: uppercase;
+				&:hover {
+					color: $color_orange;
+					background: none;
+				}
+				&:focus {
+					background-color: transparent;
+				}
+			}
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#site-footer {}
+
+.other_elements {
+    position: absolute;
+}
+
+.footer_bar {
+	padding: 15px 75px 15px 0;
+	border-top: 1px solid #fff;
+	.copyright {
+		text-align: right;
+		text-transform: capitalize;
+		font-size: 1.3em; 
+
+		.helve-bold {
+			text-transform: none;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			&:first-child:after {
+				color: rgb(185, 61, 63);
+				content: "+";
+			}
+		}
+	}
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+

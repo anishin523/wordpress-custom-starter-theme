@@ -1,0 +1,10 @@
+@import "_variables-mixins";
+
+.acf_postbox .field {
+    textarea.textarea {
+        min-height: 60px;
+    }
+	table.acf_input tbody tr td.label {
+		width: 12%;
+	}    
+}
